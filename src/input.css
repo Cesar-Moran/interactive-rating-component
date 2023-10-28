@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+.btnCircle {
+    @apply appearance-none bg-darkBlue w-12 h-12 rounded-full hover:bg-orange focus:bg-lightGrey focus:text-white hover:text-white text-lightGrey font-medium
+}
