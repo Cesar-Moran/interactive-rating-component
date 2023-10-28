@@ -547,10 +547,6 @@ video {
   margin-top: 0.75rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -571,12 +567,12 @@ video {
   height: 100vh;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-lg {
@@ -739,10 +735,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:max-w-xl {
-    max-width: 36rem;
-  }
-
   .lg\:max-w-sm {
     max-width: 24rem;
   }
